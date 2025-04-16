@@ -20,6 +20,7 @@
   font-weight: 700;
   src: url('../fonts/barlow-condensed-v12-latin-700.woff2') format('woff2'); 
 }
+
 body{
   font-family: 'Bellefair',sans-serif;
   font-family: 'Barlow Condensed',sans-serif;
