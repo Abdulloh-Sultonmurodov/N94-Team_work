@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/destination.css">
-    <title>Document</title>
-    <style type="text/tailwindcss">
-        @layer utilities {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/destination.css">
+  <title>Moon</title>
+  <style type="text/tailwindcss">
+    @layer utilities {
           .content-auto {
             content-visibility: auto;
           }
         }
       </style>
 </head>
+
 <body>
-    <!-- Abdullox aka  -->
-    <header>
+  <!-- Abdullox aka  -->
+  <header>
+    <div class="relative flex justify-between mt-[40px] items-center">
+      <a href="/"><img class="ml-[55px]" src="./images/heeader_logo.svg" alt="Hero Logo" width="48" height="48"></a>
+      <span class="absolute left-[120px] opacity-[25%] w-[473px] h-[1px] bg-[white] ml-[64px]"></span>
+      <div>
+        <nav class="bg-[#FFFFFF0A] w-[830px] h-[96px] flex gap-[48px] justify-center items-center text-center">
+          <a class="text-white text-[16px] h-full flex gap-[11px] items-center hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+            href="./index.html"><span class="text-[16px]">00</span>HOME</a>
+          <a class="text-white text-[16px] h-full flex gap-[11px] items-center hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+            href="./destination.html"><span class="text-[16px]">01</span>DESTINATION</a>
+          <a class="text-white text-[16px] h-full flex gap-[11px] items-center hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+            href="./crew.html"><span class="text-[16px]">02</span>CREW</a>
+          <a class="text-white text-[16px] h-full flex gap-[11px] items-center hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+            href="./technology.html"><span class="text-[16px]">03</span>TECHNOLOGY</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      
+      <div class="containers pt-[76px] flex justify-between">
+        <div>
+          <h2 class="text-[28px] text-white pb-[64px] flex gap-[28px]"><span
+              class="font-bold text-[28px] opacity-[25%]">01</span>Pick your destination</h2>
+          <img src="./images/Moon-image.png" alt="Moon image" width="445" height="445">
+        </div>
+        <div class="w-[445px] pt-[98px] pb-[118px]">
+          <nav class="text-white flex gap-[35px]">
+            <a class="hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+              href="./destination.html">MOON</a>
+            <a class="hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+              href="./destination-mars.html">MARS</a>
+            <a class="hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+              href="./destination-europa.html">EUROPA</a>
+            <a class="hover:border-b-2 hover:border-white hover:pb-1 hover:text-white"
+              href="./destination-titan.html">TITAN</a>
+          </nav>
+          <h1 class="text-[100px] text-[#D0D6F9] pt-[37px]">MOON</h1>
+          <p class="text-[18px] text-white w-[444px]">See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and
+            come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing
+            sites.</p>
+          <div class="border-t border-gray-700 mt-[54px]"></div>
+          <div class="pt-[28px] flex gap-[79px]">
+            <div>
+              <p class="tex-[14px] text-[#D0D6F9]">AVG. DISTANCE</p>
+              <strong class="text-[28px] text-white">384,400 km</strong>
+            </div>
+            <div>
+              <p class="tex-[14px] text-[#D0D6F9]">Est. travel time</p>
+              <strong class="text-[28px] text-white">3 days</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    </header>
-    <main>
-        <section>
-
-        </section>
-    </main>
-     
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-            }
-          }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
         }
-      </script>
+      }
+    }
+  </script>
 </body>
+
 </html>
