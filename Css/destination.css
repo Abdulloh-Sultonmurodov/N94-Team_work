@@ -16,7 +16,7 @@
   body{
     font-family: 'Bellefair',sans-serif;
     font-family: 'Barlow Condensed',sans-serif;
-    background-image: url(../images/Moon-bg-img.jpg);
+    /* background-image: url(../images/Moon-bg-img.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
   }
